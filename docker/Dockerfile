@@ -56,6 +56,7 @@ RUN wget https://github.com/YS-L/csvlens/releases/download/v0.6.0/csvlens-x86_64
 
 # {{{ MyScripts
 COPY scripts/make_users.sh /tmp/
+COPY scripts/own_home_dir.sh /tmp/own_home_dir.sh
 COPY scripts/users.txt /tmp/
 COPY scripts/start_jupyter.sh /tmp/
 COPY scripts/handouts.sh /tmp/
@@ -77,3 +78,5 @@ RUN bash /tmp/make_users.sh
 #RUN bash /tmp/handouts.sh
 
 WORKDIR /
+
+#CMD  ["bash", "/tmp/own_home_dir.sh"]
