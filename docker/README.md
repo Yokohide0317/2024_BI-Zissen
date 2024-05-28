@@ -1,4 +1,4 @@
-# summer-school2023
+# Docker
 
 ## Start Server
 
@@ -23,11 +23,11 @@ jupyterhub -f jupyterhub_config.py --port 8888 --ip 0.0.0.0 --no-ssl
 
 ## Login
 
-Go to `<ip addr>:2024`
+Go to `<ip addr>:8080`
 
 | Key | Value |
 | :---: | :---: |
-| User | user{01..10} |
+| User | user{01..12} |
 | Password | 2024qiime2 |
 
 
