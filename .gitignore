@@ -5,6 +5,7 @@ notebooks/*
 __pycache__/
 *.py[cod]
 *$py.class
+*.fastq.gz
 
 # C extensions
 *.so
